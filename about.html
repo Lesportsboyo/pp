@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "
+    <title></title>
+    <link rel="stylesheet" href="stlye.css">
+    <!--font--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--idk abt this<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/log.png"/a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html"></a></li>
+                <li><a href="about.html">About me </a></li>
+                <li><a href="TOK.html">TOK</a></li>
+                <li><a href="CAS_1.html">CAS</a></li>
+                 <li><a href="EE_1.html">EE</a></li>
+                 <li><a href="files.html">Files</a></li>
+                 <li><a href="contact.html">Contact Us </a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        
+    <h1>About Me</h1>
+
+</section>
+
+<!--about us content-->
+<section class="about us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the largest organization in Helsinki</h1>
+            <p>We is a dedicated group of marine conservationists committed to preserving the local body of waters and the diverse life they sustain. Founded in 2023, we are based in Helsinki, Finland
+
+Our mission is to protect and restore marine ecosystems, promoting the sustainability of our oceans for future generations. We believe in the power of research, education, policy change, and community engagement to drive our conservation efforts.
+<br>
+<br>
+Our team comprises marine biologists, environmental scientists, policy advocates, educators, and volunteers who share a common passion for the sea. We work tirelessly to combat the challenges facing our oceans, including pollution, climate change, overfishing, and habitat destruction.
+<br>
+<br>
+Through our various initiatives, we strive to create a world where the oceans’ health is prioritized, marine species are protected, and sustainable practices are the norm. We invite you to join us in our mission to safeguard our oceans, the heart of our planet.</p>
+            
+            <a href="" class="hero-btn red-btn">explore now</a>
+        </div>
+       
+        <div class="about-col">
+            <img src="images/about.jpg">
+        
+        </div>
+    
+    
+    </div>
+    
+    
+    
+
+    
+</section>
+    
+
+    
+
+
+<!--Javescript for toggle menu-->
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    
+     function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+    
+    
+<div class="comment-box">
+                <h3> Leave a comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="your comment" ></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post comment</button>
+                
+                </form>
+            
+</div>
+    
+   
+</section>
+        
+    
+    
+    
+    
+
+    
+</body>
+</html>
